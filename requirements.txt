@@ -1,0 +1,7 @@
+matplotlib==3.5.2
+numpy==1.21.6
+onnx==1.14.0
+onnxruntime==1.15.1
+onnxsim==0.4.33
+opencv_python==4.8.0.74
+torch==2.0.0+cu117
