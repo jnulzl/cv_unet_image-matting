@@ -18,11 +18,11 @@ python onnx_demo_matting_output_png.py --model sim/cv_unet_image_matting_opset11
 
 **原图：**
 
-![wx](D:\codes\Python\BSHM\cv_unet_image_matting\imgs\wx.jpg)
+![wx](imgs/wx.jpg)
 
 **人像扣图：**
 
-![wx.jpgmerge](D:\codes\Python\BSHM\cv_unet_image_matting\imgs\wx.jpgmerge.png)
+![wx.jpgmerge](imgs/wx.jpgmerge.png)
 
 - 2、只输出人像`mask`
 ```
@@ -31,8 +31,10 @@ python onnx_demo_matting_output_mask.py --model sim/cv_unet_image_matting_opset1
 
 **原图：**
 
-![wx](D:\codes\Python\BSHM\cv_unet_image_matting\imgs\wx.jpg)
+![wx](imgs/wx.jpg)
 
 **人像`mask`：**
 
-![wx.jpg_mask](D:\codes\Python\BSHM\cv_unet_image_matting\imgs\wx.jpg_mask.png)
+![wx.jpg_mask](imgs/wx.jpg_mask.png)
+
+[一些有用的onnx模型处理脚本](./scripts)

@@ -10,11 +10,11 @@ python make_onnx_dynamic_shape_to_fixed.py  --onnx_path files/test_origin.onnx -
 
 **抓换前的模型头部shape**
 
-![test_origin_input](D:\codes\Python\BSHM\cv_unet_image_matting\scripts\files\test_origin_input.png)
+![test_origin_input](files/test_origin_input.png)
 
 **抓换后的模型头部shape**
 
-![test_origin_bs2_input](D:\codes\Python\BSHM\cv_unet_image_matting\scripts\files\test_origin_bs2_input.png)
+![test_origin_bs2_input](files/test_origin_bs2_input.png)
 
 - 2、rename onnx model node name
 
@@ -27,11 +27,11 @@ python rename_onnx_model.py --model files/test_origin.onnx --origin_names 'input
 
 **改名前的模型头部**
 
-![test_origin_before_rename](D:\codes\Python\BSHM\cv_unet_image_matting\scripts\files\test_origin_before_rename.png)
+![test_origin_before_rename](files/test_origin_before_rename.png)
 
 **改名后的模型头部**
 
-![test_origin_renamed](D:\codes\Python\BSHM\cv_unet_image_matting\scripts\files\test_origin_renamed.png)
+![test_origin_renamed](files/test_origin_renamed.png)
 
 - 3、extract sub onnx model
 
@@ -44,11 +44,11 @@ python extract_sub_onnx.py --model files/test_origin.onnx --input_names 'input' 
 
 **原始模型头部**
 
-![test_origin_before_rename](D:\codes\Python\BSHM\cv_unet_image_matting\scripts\files\test_origin_before_rename.png)
+![test_origin_before_rename](files/test_origin_before_rename.png)
 
 **子模型头部**
 
-![test_origin_renamed](D:\codes\Python\BSHM\cv_unet_image_matting\scripts\files\test_origin_sub.png)
+![test_origin_renamed](files/test_origin_sub.png)
 
 - 4、merge two onnx to one 
 
